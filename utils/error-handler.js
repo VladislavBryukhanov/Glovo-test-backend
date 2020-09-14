@@ -3,5 +3,4 @@ module.exports = (res, moduleName, errorCode, message, error) => {
   if (res) {
     return res.status(errorCode).json({ message });
   }
-  return;
 };
